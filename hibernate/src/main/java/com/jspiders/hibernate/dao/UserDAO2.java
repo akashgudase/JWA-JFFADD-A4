@@ -16,11 +16,11 @@ public class UserDAO2 {
 	public static void main(String[] args) {
 
 		UserDTO userDTO = new UserDTO();
-		userDTO.setId(2);
-		userDTO.setName("Ramesh");
-		userDTO.setEmail("ramesh@gmail.com");
-		userDTO.setMobile(9876543211L);
-		userDTO.setPassword("Ramesh@1234");
+		userDTO.setId(4);
+		userDTO.setName("Umesh");
+		userDTO.setEmail("umesh@gmail.com");
+		userDTO.setMobile(9876543213L);
+		userDTO.setPassword("umesh@1234");
 
 		openConnection();
 		entityTransaction.begin();
