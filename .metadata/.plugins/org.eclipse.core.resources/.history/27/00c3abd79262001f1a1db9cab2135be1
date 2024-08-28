@@ -1,0 +1,7 @@
+package com.jspiders.servlets.servlet;
+
+import javax.servlet.Servlet;
+
+public class MyServlet2 implements Servlet{
+
+}

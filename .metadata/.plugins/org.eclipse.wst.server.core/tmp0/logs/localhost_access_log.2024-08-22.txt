@@ -1,0 +1,15 @@
+127.0.0.1 - - [22/Aug/2024:18:25:01 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:18:25:11 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [22/Aug/2024:18:30:07 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:18:30:13 +0530] "GET /servlets/signup HTTP/1.1" 404 770
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:18:30:31 +0530] "GET /servlets/myservlet1?num1=10&num2=20 HTTP/1.1" 200 13
+127.0.0.1 - - [22/Aug/2024:18:35:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:18:37:48 +0530] "GET /servlets/signup HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:18:38:01 +0530] "GET /servlets/login.html? HTTP/1.1" 200 1260
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:18:38:14 +0530] "GET /servlets/login HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [22/Aug/2024:18:38:29 +0530] "GET /servlets/login HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2024:18:42:18 +0530] "GET /servlets/signup.html HTTP/1.1" 200 1444
+127.0.0.1 - - [22/Aug/2024:18:42:18 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [22/Aug/2024:18:42:45 +0530] "GET /servlets/signup?username=Akash&email=akash%40gmail.com&mobile=9876543210&password=Akash%401234 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Aug/2024:18:43:15 +0530] "GET /servlets/login.html HTTP/1.1" 200 1260
+127.0.0.1 - - [22/Aug/2024:18:43:26 +0530] "GET /servlets/login?username=Akash&password=Akash%401234 HTTP/1.1" 200 -

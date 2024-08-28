@@ -1,0 +1,17 @@
+127.0.0.1 - - [27/Aug/2024:15:27:35 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:27:52 +0530] "GET /servlets/users.jsp HTTP/1.1" 200 1533
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:27:52 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:29:45 +0530] "GET /servlets/update-user?email=ramesh@gmail.com HTTP/1.1" 200 1640
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:30:28 +0530] "POST /servlets/update-user HTTP/1.1" 200 33
+127.0.0.1 - - [27/Aug/2024:15:31:20 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:31:29 +0530] "GET /servlets/users.jsp HTTP/1.1" 200 1533
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:31:34 +0530] "GET /servlets/update-user?email=ramesh@gmail.com HTTP/1.1" 200 1640
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:31:44 +0530] "POST /servlets/update-user HTTP/1.1" 200 25
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:31:57 +0530] "GET /servlets/users.jsp HTTP/1.1" 200 1533
+127.0.0.1 - - [27/Aug/2024:15:43:21 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:43:26 +0530] "GET /servlets/users.jsp HTTP/1.1" 200 1533
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:43:36 +0530] "GET /servlets/update-user?email=ramesh@gmail.com HTTP/1.1" 200 1640
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:43:45 +0530] "POST /servlets/update-user HTTP/1.1" 200 1558
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:51:29 +0530] "GET /servlets/JSP1.jsp HTTP/1.1" 200 314
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:52:07 +0530] "GET /servlets/JSP1.jsp HTTP/1.1" 200 314
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:15:53:19 +0530] "GET /servlets/JSP1.jsp HTTP/1.1" 200 156

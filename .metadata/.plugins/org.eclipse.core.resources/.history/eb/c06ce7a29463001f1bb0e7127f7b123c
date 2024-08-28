@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.form-container {
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 10px;
+	vertical-align: middle;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+</style>
+</head>
+<body>
+	<div align="center">
+		<form action="./signup" method="post" class="form-container">
+			<table>
+				<tr>
+					<td>username</td>
+					<td><input type="text" name="username"></td>
+				</tr>
+				<tr>
+					<td>email</td>
+					<td><input type="text" name="email"></td>
+				</tr>
+				<tr>
+					<td>mobile</td>
+					<td><input type="text" name="mobile"></td>
+				</tr>
+				<tr>
+					<td>password</td>
+					<td><input type="text" name="password"></td>
+				</tr>
+			</table>
+			<input type="submit" value="Signup">
+		</form>
+	</div>
+</body>
+</html>

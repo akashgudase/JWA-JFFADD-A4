@@ -1,0 +1,8 @@
+package com.jspiders.servlets.servlet;
+
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet("/update-user")
+public class UpdateUser {
+
+}

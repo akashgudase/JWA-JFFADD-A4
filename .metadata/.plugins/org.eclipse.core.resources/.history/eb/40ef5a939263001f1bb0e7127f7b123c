@@ -1,0 +1,49 @@
+<%@page import="com.jspiders.servlets.entity.User"%>
+<%@page import="java.util.List"%>
+<%@page import="com.jspiders.servlets.data.DataAccess"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Users :</h1>
+	<%!DataAccess access = new DataAccess();%>
+	<%
+	List<User> users = access.findAllUsers();
+	if (users.size() > 0) {
+	%>
+	<div align="center">
+		<table>
+			<tr>
+				<th>Username</th>
+				<th>Email</th>
+				<th>Mobile</th>
+				<th>Password</th>
+			</tr>
+			<%
+			for (User user : users) {
+			%>
+			<tr>
+				<td><%=user.getUserName()%></td>
+				<td><%=user.getEmail()%></td>
+				<td><%=user.getMobile()%></td>
+				<td><%=user.getPassword()%></td>
+			</tr>
+			<%
+			}
+			%>
+		</table>
+	</div>
+	<%
+	} else {
+	%>
+	<h1>Users not found</h1>
+	<%
+	}
+	%>
+</body>
+</html>

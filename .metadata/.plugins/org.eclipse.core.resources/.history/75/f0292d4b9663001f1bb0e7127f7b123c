@@ -1,0 +1,8 @@
+package com.jspiders.servlets.servlet;
+
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet("/delete-user")
+public class DeleteUser {
+
+}
