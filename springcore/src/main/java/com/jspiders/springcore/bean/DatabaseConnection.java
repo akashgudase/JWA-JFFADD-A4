@@ -5,6 +5,10 @@ public class DatabaseConnection {
 	private String url;
 	private String user;
 	private String password;
+	
+	{
+		System.out.println("Connection is created");
+	}
 
 	public String getUrl() {
 		return url;

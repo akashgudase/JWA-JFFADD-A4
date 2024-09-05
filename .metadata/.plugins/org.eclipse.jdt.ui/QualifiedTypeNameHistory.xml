@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.jspiders.hibernate.User"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="javax.persistence.Query"/>
     <fullyQualifiedTypeName name="javax.persistence.NoResultException"/>
@@ -57,7 +55,9 @@
     <fullyQualifiedTypeName name="com.jspiders.servlets.entity.User"/>
     <fullyQualifiedTypeName name="com.jspiders.servlets.data.DataAccess"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="com.jspiders.springcore.bean.DatabaseConnectivity"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcore.bean.DatabaseConnection"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcore.bean.DataAccessObject"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 </qualifiedTypeNameHistroy>

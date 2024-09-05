@@ -4,10 +4,28 @@
 	xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean class="com.jspiders.springcore.bean.DatabaseConnection">
-	<property name="url" value="jdbc:mysql://localhost:3306"/>
-	<property name="user" value="Ramesh"/>
-	<property name="password" value="Ramesh@1234"/>
+	<bean class="com.jspiders.springcore.bean.DatabaseConnection"
+		scope="prototype" name="connection1">
+		<property name="url" value="jdbc:mysql://localhost:3306" />
+		<property name="user" value="Ramesh" />
+		<property name="password" value="Ramesh@1234" />
+	</bean>
+
+	<bean class="com.jspiders.springcore.bean.DatabaseConnection"
+		scope="singleton" name="connection2">
+		<property name="url" value="jdbc:oracle://localhost:4996" />
+		<property name="user" value="Suresh" />
+		<property name="password" value="Suresh@1234" />
+	</bean>
+
+	<bean class="com.jspiders.springcore.bean.DataAccessObject"
+		scope="prototype" name="dao1">
+		<property name="connection" ref="connection1" />
+	</bean>
+
+	<bean class="com.jspiders.springcore.bean.DataAccessObject"
+		scope="prototype" name="dao2">
+		<property name="connection" ref="connection2" />
 	</bean>
 
 </beans>
