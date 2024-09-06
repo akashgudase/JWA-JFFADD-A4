@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="javax.persistence.Query"/>
-    <fullyQualifiedTypeName name="javax.persistence.NoResultException"/>
-    <fullyQualifiedTypeName name="com.jspiders.hibernate.dto.BankAccount"/>
-    <fullyQualifiedTypeName name="com.jspiders.hibernate.dto.AadharCard"/>
-    <fullyQualifiedTypeName name="com.jspiders.hibernate.dao.PersonDAO"/>
-    <fullyQualifiedTypeName name="com.jspiders.hibernate.dto.Person"/>
-    <fullyQualifiedTypeName name="com.jspiders.hibernate.dao.PanCard"/>
-    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
-    <fullyQualifiedTypeName name="org.hibernate.annotations.ManyToAny"/>
     <fullyQualifiedTypeName name="com.jspiders.hibernate.dao.Company"/>
     <fullyQualifiedTypeName name="com.jspiders.hibernate.dao.Employee"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
@@ -46,9 +36,7 @@
     <fullyQualifiedTypeName name="com.mysql.cj.jdbc.Driver"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="javax.servlet.Servlet"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
@@ -57,7 +45,19 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="com.jspiders.springcore.bean.DatabaseConnectivity"/>
     <fullyQualifiedTypeName name="com.jspiders.springcore.bean.DatabaseConnection"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="com.jspiders.springcore.bean.DataAccessObject"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcore.config.AppConfig"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcore.bean.DataService"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 </qualifiedTypeNameHistroy>
