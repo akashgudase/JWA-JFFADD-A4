@@ -10,5 +10,10 @@ public class AuthController {
 	protected String getLogInPage() {
 		return "login";
 	}
+	
+	@RequestMapping("/signup")
+	protected String getSignUpPage() {
+		return "signup";
+	}
 
 }

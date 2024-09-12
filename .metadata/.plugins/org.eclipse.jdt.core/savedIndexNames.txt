@@ -58,8 +58,6 @@ INDEX VERSION 1.134+D:\JWA-JFFADD-A4\.metadata\.plugins\org.eclipse.jdt.core
 4032228755.index
 3049506875.index
 2461289570.index
-1339896485.index
-3496003516.index
 83179356.index
 4040563571.index
 2490655877.index
@@ -90,5 +88,4 @@ INDEX VERSION 1.134+D:\JWA-JFFADD-A4\.metadata\.plugins\org.eclipse.jdt.core
 4223345040.index
 2361436166.index
 276267934.index
-3625893501.index
 3988121525.index
