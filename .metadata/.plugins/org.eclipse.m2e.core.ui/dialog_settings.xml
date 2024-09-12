@@ -25,17 +25,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.jspiders.springcore"/>
-			<item value="com.jspiders.usermodule"/>
-			<item value="com.jspiders.hibernate"/>
+			<item value="com.jspiders"/>
+			<item value="com.jspiders.springmvc"/>
 		</list>
 		<list key="groupId">
 			<item value="com.jspiders"/>
 		</list>
 		<list key="artifactId">
-			<item value="springcore"/>
-			<item value="usermodule"/>
-			<item value="hibernate"/>
+			<item value="springmvc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
