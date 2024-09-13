@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div align="center">
-		<form action="">
+		<form action="./users" method="post">
 			<table border="1px solid">
 				<tr>
 					<td>username</td>
