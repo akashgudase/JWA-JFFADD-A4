@@ -4876,3 +4876,15 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.hibernate
 2024-09-13 15:46:19,565 [Worker-51: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springmvc
 2024-09-13 15:47:28,904 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@5edc438f{STOPPING}[12.0.9,sto=0]
 2024-09-13 15:47:28,909 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@238676f2{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-09-13 15:47:48,376 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-13 15:47:51,952 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.jspiders:springmvc:0.0.1-SNAPSHOT @ D:\JWA-JFFADD-A4\springmvc\pom.xml.
+2024-09-13 15:47:52,537 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jspiders:usermodule:0.0.1-SNAPSHOT @ D:\JWA-JFFADD-A4\usermodule\pom.xml.
+2024-09-13 15:47:52,587 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jspiders:hibernate:0.0.1-SNAPSHOT @ D:\JWA-JFFADD-A4\hibernate\pom.xml.
+2024-09-13 15:47:52,639 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jspiders:springcore:0.0.1-SNAPSHOT @ D:\JWA-JFFADD-A4\springcore\pom.xml.
+2024-09-13 15:56:17,099 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-13 15:56:17,111 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-09-13 16:04:53,612 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.9; built: 2024-05-03T13:03:17.262Z; git: efe8023327e67287f9bfd006700e6a71d45b5dd6; jvm 21.0.3+7-LTS-152
+2024-09-13 16:04:53,673 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@14ce7685{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@5213f500{STARTED}}
+2024-09-13 16:04:53,674 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-09-13 16:04:53,698 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@8328ea8{HTTP/1.1, (http/1.1)}{127.0.0.1:54267}
+2024-09-13 16:04:53,714 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@6da0c551{STARTING}[12.0.9,sto=0] @1041422ms
